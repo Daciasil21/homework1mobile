@@ -238,19 +238,20 @@ input[type=submit] {
   border: 0 none;
 }
 
-/* Portrait */
+/* mobile*/
 @media only screen 
   and (min-device-width: 320px) 
   and (max-device-width: 568px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) {
-}
+  and (-webkit-min-device-pixel-ratio: 2){
+    #masthead{
+      width:100%;
+    }
+    #logo {
+      width:100%;
+    }
+    .sidebar{
+      width:100%;
+    }
 
-/* Landscape */
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 568px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) {
 
 }
